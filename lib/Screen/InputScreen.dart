@@ -79,7 +79,7 @@ class InputScreenState extends State<InputScreen> {
             ),
             SizedBox(height: 16),
             Text('BMI Result: ${bmiResult.toStringAsFixed(2)}',style: TextStyle(fontSize: 24),),
-            Text('Category: $bmiCategory'),
+            Text('Category: $bmiCategory',style: TextStyle(fontSize: 24)),
           ],
         ),
       ),
